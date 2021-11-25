@@ -36,3 +36,124 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: teal;
+}
+
+
+
+/* .box{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(132, 235, 204, 0.89);
+	border-radius:3px;
+	padding:70px 100px;
+} */
+
+.input{ 
+  
+  /* width: 100%; */
+  padding: 20px;
+  border: 1px solid white;
+  font-size: 20px;
+  background-color: teal;
+  color: white;
+  box-shadow: 0 0 10px #fff;
+ 
+}
+.inputbutton{ 
+  
+  padding: 20px;
+  border: 1px solid white;
+  font-size: 20px;
+  background-color: teal;
+  color: white;
+  box-shadow: 0 0 10px #fff;
+ 
+}
+
+/* .inputdelete{ 
+  
+  /* padding: 5px; */
+  /* border: 1px solid white; */
+  /* font-size: 20px; */
+  /* background-color: teal;
+  color: white;
+
+  */
+/* } */ 
+.input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+
+/* .inputbutton:hover {
+  border-color:#61dafb;
+  background-color: #61dafb;
+  color: white;
+}
+.input:hover {
+  border-color:#61dafb;
+  background-color: #61dafb;
+  color: white;
+} */
+
+.glow {
+  /* font-size: 80px; */
+  color: #fff;
+  text-align: center;
+  animation: glow 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow:  0 0 5px #fff, 0 0 5px #fff, 0 0 5px #1ad5e2, 0 0 5px #1ad5e2, 0 0 5px #1ad5e2, 0 0 5px #1ad5e2, 0 0 5px #1ad5e2;
+  }
+  
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 8px #1ad5e2, 0 0 12px #1ad5e2, 0 0 16px #1ad5e2, 0 0 20px #1ad5e2, 0 0 24px #1ad5e2, 0 0 28px #1ad5e2;
+  }
+}
+
+.inputouter{ 
+  
+  /* width: 100%; */
+  padding: 20px;
+  border: 1px solid white;
+  font-size: 20px;
+  background-color: teal;
+  color: white;
+  /* box-shadow: 0 0 20px #fff; */
+  width: 40%;
+  margin-left: 28%;
+  height: 500px;
+  /* animation: inputouter 0.8s ease-in-out infinite alternate; */
+  box-shadow: 0 0 10px #fff
+ 
+}
+
+
+@keyframes inputouter {
+  from {
+    box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #1ad5e2, 0 0 5px #1ad5e2, 0 0 5px #1ad5e2, 0 0 5px #1ad5e2, 0 0 5px #1ad5e2;
+  }
+  
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 7px #1ad5e2, 0 0 10px #1ad5e2, 0 0 13px #1ad5e2, 0 0 16px #1ad5e2, 0 0 18px #1ad5e2, 0 0 20px #1ad5e2;
+  }
+}
